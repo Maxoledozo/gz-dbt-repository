@@ -1,3 +1,6 @@
+
+{{ config(materialized= 'table') }}
+
  -- finance_days.sql
 
  SELECT
